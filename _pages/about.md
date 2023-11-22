@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 Hello! My name is Xiaofeng Xu(徐晓峰). I'm a Ph.D. student at Shandong University, advised by Prof. [Lu Wang](https://wanglusdu.github.io/). My research mainly focuses on rendering. Especially I'm interested in efficient rendering algorithms.
+
 I received my Bachelor's degree from Shandong University.
 
 <!--
