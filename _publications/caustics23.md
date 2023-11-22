@@ -8,10 +8,10 @@ publication: Computer Graphics Forum (Proceedings of Pacific Graphics 2023)
 doi:   https://doi.org/10.1111/cgf.14975
 paper: /files/PG23_PathReuseCaustics-compressed.pdf
 code:  https://github.com/xuxiaofeng1024/specular-manifold-sampling-spatiotemporal-reuse
-slides_ppt: /files/PG2023_paper1111_PRESENTATION_v2.pptx
+slides_ppt: 
 presentation_slides_video: 
 supplementary:
-supplemental_video: /files/video_PG23_PathReuseCaustics.mp4
+supplemental_video: 
 ---
 
 ## Abstract
