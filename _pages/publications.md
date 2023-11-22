@@ -4,13 +4,62 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+{% assign publications = site.publications | sort: "uid" | reverse %}
+{% for pub in publications %}
+<div class="feature_wrapper">
+    <div class="feature__item--left">
+        <div class="archive__item">
+            <div class="archive__item-teaser">
+                <a href="{{pub.url}}">
+                    <img src="/assets/images/pub/{{ pub.slug }}_small.jpg" alt="{{pub.slug}} publication teaser" />
+                </a>
+            </div>
+            <div class="archive__item-body">
+                <div class="pubtitle">{{ pub.title }}</div>
+                <div class="pubauthors">{{ pub.authors }}</div>
+                <div class="pubinfo">{{ pub.publication }}</div>
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
-{% include base_path %}
+                <p>
+                    <a href="{{pub.url}}" target="_blank" class="btn btn--primary">Project Page</a>
+                    {% if pub.paper != null %}
+                    <a href="{{pub.paper}}" target="_blank" class="btn btn--primary">Paper</a>
+                    {% endif %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+                    {% if pub.code != null %}
+                    <a href="{{pub.code}}" target="_blank" class="btn btn--primary">Code</a>
+                    {% endif %}
+
+                    {% if pub.slides != null %}
+                    <a href="{{pub.slides}}" target="_blank" class="btn btn--primary">Slides(PDF)</a>
+                    {% endif %}
+
+                    {% if pub.slides_ppt != null %}
+                    <a href="{{pub.slides_ppt}}" target="_blank" class="btn btn--primary">Slides(PPT)</a>
+                    {% endif %}
+
+                    {% if pub.presentation_slides_video != null %}
+                    <a href="{{pub.presentation_slides_video}}" target="_blank" class="btn btn--primary">Presentation
+                        slides video</a>
+                    {% endif %}
+
+                    {% if pub.supplementary != null %}
+                    <a href="{{pub.supplementary}}" target="_blank" class="btn btn--primary">Supplementary</a>
+                    {% endif %}
+
+                    {% if pub.supplemental_video != null %}
+                    <a href="{{pub.supplemental_video}}" target="_blank" class="btn btn--primary">Supplemental video</a>
+                    {% endif %}
+
+                    {% if pub.doi != null %}
+                    <a href="{{pub.doi}}" target="_blank" class="btn btn--primary">DOI</a>
+                    {% endif %}
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <HR width="100%" color=#41879d>
+</div>
+
 {% endfor %}
