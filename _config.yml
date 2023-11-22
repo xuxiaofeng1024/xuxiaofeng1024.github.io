@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xiaofeng Xu /Personal Homepage"
+title                    : "Xiaofeng Xu / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Xiaofeng Xu"
-description              : &description "a Ph.D. student at Shandong University"
-url                      : https://xuxiaofeng1024.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "A Ph.D. student at Shandong University."
+url                      : https://xuxiaofeng1024.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xuxiaofeng1024/xuxiaofeng1024.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -23,7 +23,7 @@ talkmap_link             : false #change to true to add link to talkmap on talks
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            :
+    shortname            : xiaofeng
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xiaofeng Xu"
+  name             : "晓峰 徐 <br>Xiaofeng Xu"
   avatar           : "profile.png"
-  bio              : "a Ph.D. student at Shandong University"
-  location         : "Location"
+  bio              : "Rendering a wonderful life!"
+  location         : 
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+# pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+# googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/xuxiaofeng1024"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
