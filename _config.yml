@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "晓峰 徐 <br>Xiaofeng Xu"
+  name             : " 晓  峰   徐 <br>Xiaofeng Xu"
   avatar           : "profile.png"
-  bio              : "Rendering a wonderful life!"
+  bio              : "Rendering a wonderful life !"
   location         : 
   employer         :
-# pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-# googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  email            : "mailto:xu_xiaofeng@mail.sdu.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
