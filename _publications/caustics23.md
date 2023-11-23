@@ -11,7 +11,7 @@ code:  https://github.com/xuxiaofeng1024/specular-manifold-sampling-spatiotempor
 slides_ppt: /files/ppts/caustics23.pptx
 presentation_slides_video: 
 supplementary:
-supplemental_video: /files/videos/caustics23.mp4
+supplemental_video: https://drive.google.com/file/d/1D5AOObLVt2TSwxTXkRR_7s3cCYDigyrn/view?usp=sharing
 ---
 
 ## Abstract
@@ -26,15 +26,11 @@ Caustics are complex optical effects caused by the light being concentrated in a
 [Supplemental video (629MB)]({{page.supplemental_video}}){: .btn .btn--primary}
 
 
-<!--
-## Videos
-**Presentation slides video**
-{% include video provider="google-drive" id="1KYr1M6VvAITp_PmoRZRk0wgqUIKcTeP5" %}
 
 **Supplemental video**
 
-{% include video provider="google-drive" id="1UkiWnzqS-3kgfQM8rFczyy1JW638jT87" %}
--->
+{% include video provider="google-drive" id="1D5AOObLVt2TSwxTXkRR_7s3cCYDigyrn" %}
+
 
 ## Cite
 
