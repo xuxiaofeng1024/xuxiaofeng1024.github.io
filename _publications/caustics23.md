@@ -6,12 +6,12 @@ authors: <b>Xiaofeng Xu</b>, <a href="https://wanglusdu.github.io/" target="_bla
 
 publication: Computer Graphics Forum (Proceedings of Pacific Graphics 2023)
 doi:   https://doi.org/10.1111/cgf.14975
-paper: /files/PG23_PathReuseCaustics-compressed.pdf
+paper: /files/papers/caustics23.pdf
 code:  https://github.com/xuxiaofeng1024/specular-manifold-sampling-spatiotemporal-reuse
-slides_ppt: 
+slides_ppt: /files/ppts/caustics23.pptx
 presentation_slides_video: 
 supplementary:
-supplemental_video: 
+supplemental_video: /files/videos/caustics23.mp4
 ---
 
 ## Abstract
