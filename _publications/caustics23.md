@@ -22,7 +22,7 @@ Caustics are complex optical effects caused by the light being concentrated in a
 
 [Paper (37MB)]({{page.paper}}){: .btn .btn--primary}
 [Slides (PPT, 24MB)]({{page.slides_ppt}}){: .btn .btn--primary}
-[Presentation slides video (45MB)]({{page.presentation_slides_video}}){: .btn .btn--primary}
+<!--[Presentation slides video (45MB)]({{page.presentation_slides_video}}){: .btn .btn--primary} -->
 [Supplemental video (629MB)]({{page.supplemental_video}}){: .btn .btn--primary}
 
 
