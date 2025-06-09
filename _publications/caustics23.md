@@ -45,4 +45,4 @@ Caustics are complex optical effects caused by the light being concentrated in a
 }
 ```
 ## Copyright Disclaimer
-© The Author(s). This is the author’s version of the work. It is posted here for your personal use. Not forredistribution. The definitive Version of Record is available at <a href="{{page.doi}}">DOI</a>.
+© The Author(s). This is the author’s version of the work. It is posted here for your personal use. Not for redistribution. The definitive version of record is available at <a href="{{page.doi}}">DOI</a>.
