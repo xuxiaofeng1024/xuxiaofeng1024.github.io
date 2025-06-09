@@ -5,10 +5,10 @@ title: Adaptive Multiple Control Variates for Many-Light Rendering
 authors: <b>Xiaofeng Xu</b>, <a href="https://wanglusdu.github.io/" target="_blank">Lu Wang</a>
 
 publication: Proceedings of Eurographics Symposium on Rendering 2025
-doi:   <!--https://doi.org/10.1111/cgf.14975-->
+doi (Waiting for publication):   
 paper: /files/papers/manylights25.pdf
-code:  <!--https://github.com/xuxiaofeng1024/specular-manifold-sampling-spatiotemporal-reuse-->
-slides_ppt: <!--/files/ppts/manylights25.pptx-->
+code (Coming soon):  
+slides_ppt (Coming soon):
 presentation_slides_video: 
 supplementary: /files/supplementary/manylights25/index.html
 supplemental_video:
@@ -27,11 +27,6 @@ Monte Carlo integration estimates the path integral in light transport by random
 <!--[Supplemental video (629MB)]({{page.supplemental_video}}){: .btn .btn--primary}-->
 
 
-<!--
-**Supplemental video**
-
-{% include video provider="google-drive" id="1D5AOObLVt2TSwxTXkRR_7s3cCYDigyrn" %}
--->
 
 ## Cite
 Wait for being released...
