@@ -35,17 +35,6 @@ Monte Carlo integration estimates the path integral in light transport by random
 
 ## Cite
 Wait for being released...
-<!--
-```bib
-@inproceedings{xu2023efficient,
-  title={Efficient Caustics Rendering via Spatial and Temporal Path Reuse},
-  author={Xu, Xiaofeng and Wang, Lu and Wang, Beibei},
-  booktitle={Computer Graphics Forum},
-  pages={e14975},
-  year={2023},
-  organization={Wiley Online Library}
-}
-```
--->
+
 ## Copyright Disclaimer
 © The Author(s). This is the author’s version of the work. It is posted here for your personal use. Not for redistribution. The definitive version of record is available at <a href="{{page.doi}}">DOI</a>.
