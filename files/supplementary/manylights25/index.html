@@ -1,0 +1,173 @@
+<!DOCTYPE doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <meta content="Research Results" name="description"/>
+        <title>
+            Adaptive Multiple Control Variates for Many-Light Rendering
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet" type="text/css"/>
+        <link href="utils/report.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="content" id="content">
+            <h1 class="title">
+                Adaptive Multiple Control Variates for Many-Light Rendering
+            </h1>
+            <p class="authors">
+            <span class="author-names">Xiaofeng Xu, Lu Wang</span><br>
+            <span class="institution">Shandong University, China</span>
+            </p>
+            
+ 	        <h2>
+                Comparison to Salaün et al. [2022]
+            </h2>
+            <p>
+                 Equal-time comparison among our method (fixed and adaptive number of control variates) with polynomials of order 1, conventional Monte Carlo (MC) integration, and regression-based MC integration of Salaün et al. with polynomials of order 1 (O1), 2 (O2) 3 (O3).
+            </p>
+            <div class="element-container">
+
+                <div class="report-preview">
+                    <a href="comparison_to_Salaün&al/scenes/veach-mis/index.html">
+                        <img class="report-thumb" src="comparison_to_Salaün&al/scenes/veach-mis/thumb.png"/>
+                    </a>
+                    <br/>
+                    Veach-mis
+                </div>
+
+                <div class="report-preview">
+                    <a href="comparison_to_Salaün&al/scenes/living-room2/index.html">
+                        <img class="report-thumb" src="comparison_to_Salaün&al/scenes/living-room2/thumb.png"/>
+                    </a>
+                    <br/>
+                    Living-room2
+                </div>
+
+                <div class="report-preview">
+                    <a href="comparison_to_Salaün&al/scenes/bathroom/index.html">
+                        <img class="report-thumb" src="comparison_to_Salaün&al/scenes/bathroom/thumb.png"/>
+                    </a>
+                    <br/>
+                    Bathroom
+                </div>
+                                
+                <div class="report-preview">
+                    <a href="comparison_to_Salaün&al/scenes/staircase2/index.html">
+                        <img class="report-thumb" src="comparison_to_Salaün&al/scenes/staircase2/thumb.png"/>
+                    </a>
+                    <br/>
+                    Staircase2
+                </div>
+                
+                <div class="report-preview">
+                    <a href="comparison_to_Salaün&al/scenes/classroom/index.html">
+                        <img class="report-thumb" src="comparison_to_Salaün&al/scenes/classroom/thumb.png"/>
+                    </a>
+                    <br/>
+                    Classroom
+                </div>
+
+                <div class="report-preview">
+                    <a href="comparison_to_Salaün&al/scenes/cornell-box/index.html">
+                        <img class="report-thumb" src="comparison_to_Salaün&al/scenes/cornell-box/thumb.png"/>
+                    </a>
+                    <br/>
+                    Cornell-box
+                </div>
+            </div>
+            <h2>
+                Comparison to kondapaneni et al. [2019]
+            </h2>
+            <p>
+                Equal-spp comparison among our method, conventional Monte Carlo (MC) integration, the balance and power heuristic (Veach [1997] (Robust Monte Carlo Methods for Light Transport Simulation)), and the optimal weights (Kondapaneni et al.[2019] (Optimal Multiple Importance Sampling)).
+            </p>
+            <div class="element-container">
+                
+                <div class="report-preview">
+                    <a href="comparison_to_Kondapaneni&al/scenes/veach-mis/index.html">
+                        <img class="report-thumb" src="comparison_to_Kondapaneni&al/scenes/veach-mis/thumb.png"/>
+                    </a>
+                    <br/>
+                    Veach-mis
+                </div>
+
+                <div class="report-preview">
+                    <a href="comparison_to_Kondapaneni&al/scenes/staircase1/index.html">
+                        <img class="report-thumb" src="comparison_to_Kondapaneni&al/scenes/staircase1/thumb.png"/>
+                    </a>
+                    <br/>
+                    Staircase1
+                </div>
+
+                <h2>
+                    Comparison to Estevez  et al. [2019]
+                </h2>
+                <p>
+                    Equal-sample comparison of adaptive tree splitting for many lights sampling by Estevez et al. [CEK18] and our method.
+                </p>
+                <div class="element-container">
+                    
+                    <div class="report-preview">
+                        <a href="comparison_to_Estevez&al/scenes/bathroom/index.html">
+                            <img class="report-thumb" src="comparison_to_Estevez&al/scenes/bathroom/thumb.png"/>
+                        </a>
+                        <br/>
+                        Bathroom
+                    </div>
+
+                    <div class="report-preview">
+                        <a href="comparison_to_Estevez&al/scenes/staircase2/index.html">
+                            <img class="report-thumb" src="comparison_to_Estevez&al/scenes/staircase2/thumb.png"/>
+                        </a>
+                        <br/>
+                        Staircase2
+                    </div>
+
+                    <div class="report-preview">
+                        <a href="comparison_to_Estevez&al/scenes/classroom/index.html">
+                            <img class="report-thumb" src="comparison_to_Estevez&al/scenes/classroom/thumb.png"/>
+                        </a>
+                        <br/>
+                        Classroom
+                    </div>
+
+                    <div class="report-preview">
+                        <a href="comparison_to_Estevez&al/scenes/cornell-box/index.html">
+                            <img class="report-thumb" src="comparison_to_Estevez&al/scenes/cornell-box/thumb.png"/>
+                        </a>
+                        <br/>
+                        Cornell-box
+                    </div>
+    
+               <h2>
+                    Antialiasing
+                </h2>
+                <p>
+                    As the number of represented points increases, the degree of aliasing decreases and the time cost increases.
+                </p>
+                <div class="element-container">
+                    
+                    <div class="report-preview">
+                        <a href="antialiasing/scenes/bathroom/index.html">
+                            <img class="report-thumb" src="antialiasing/scenes/bathroom/thumb.png"/>
+                        </a>
+                        <br/>
+                        Bathroom
+                    </div>
+
+                    <div class="report-preview">
+                        <a href="antialiasing/scenes/staircase2/index.html">
+                            <img class="report-thumb" src="antialiasing/scenes/staircase2/thumb.png"/>
+                        </a>
+                        <br/>
+                        Staircase2
+                    </div>      
+                
+            </div>
+
+           
+
+        </div>
+    </body>
+</html>
