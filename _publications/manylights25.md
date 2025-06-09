@@ -8,7 +8,7 @@ publication: Proceedings of Eurographics Symposium on Rendering 2025
 doi:   <!--https://doi.org/10.1111/cgf.14975-->
 paper: /files/papers/manylights25.pdf
 code:  <!--https://github.com/xuxiaofeng1024/specular-manifold-sampling-spatiotemporal-reuse-->
-slides_ppt: /files/ppts/manylights25.pptx
+slides_ppt: <!--/files/ppts/manylights25.pptx-->
 presentation_slides_video: 
 supplementary: /files/supplementary/manylights25/index.html
 supplemental_video:
@@ -21,7 +21,7 @@ Monte Carlo integration estimates the path integral in light transport by random
 ## Downloads
 
 [Paper (43MB)]({{page.paper}}){: .btn .btn--primary}
-[Slides (Not avaliable)]({{page.slides_ppt}}){: .btn .btn--primary}
+[Slides (Coming soon)]({{page.slides_ppt}}){: .btn .btn--primary}
 <!--[Presentation slides video (45MB)]({{page.presentation_slides_video}}){: .btn .btn--primary} -->
 [Supplemental results]({{page.supplementary}}){: .btn .btn--primary}
 <!--[Supplemental video (629MB)]({{page.supplemental_video}}){: .btn .btn--primary}-->
