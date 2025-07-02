@@ -5,10 +5,10 @@ title: Adaptive Multiple Control Variates for Many-Light Rendering
 authors: <b>Xiaofeng Xu</b>, <a href="https://wanglusdu.github.io/" target="_blank">Lu Wang</a>
 
 publication: Proceedings of Eurographics Symposium on Rendering 2025
-doi (Waiting for publication):   
+doi: https://doi.org/10.2312/sr.20251184   
 paper: /files/papers/manylights25.pdf
 code (Coming soon):  
-slides_ppt (Coming soon):
+slides_pdf: /files/ppts/manylights25.pdf
 presentation_slides_video: 
 supplementary: /files/supplementary/manylights25/index.html
 supplemental_video:
@@ -21,7 +21,7 @@ Monte Carlo integration estimates the path integral in light transport by random
 ## Downloads
 
 [Paper (43MB)]({{page.paper}}){: .btn .btn--primary}
-[Slides (Coming soon)]({{page.slides_ppt}}){: .btn .btn--primary}
+[Slides (129MB)]({{page.slides_pdf}}){: .btn .btn--primary}
 <!--[Presentation slides video (45MB)]({{page.presentation_slides_video}}){: .btn .btn--primary} -->
 [Supplemental results]({{page.supplementary}}){: .btn .btn--primary}
 <!--[Supplemental video (629MB)]({{page.supplemental_video}}){: .btn .btn--primary}-->
@@ -29,7 +29,19 @@ Monte Carlo integration estimates the path integral in light transport by random
 
 
 ## Cite
-Wait for being released...
 
+```bib
+@inproceedings{xu2025adaptive,
+booktitle = {Eurographics Symposium on Rendering},
+editor = {Wang, Beibei and Wilkie, Alexander},
+title = {{Adaptive Multiple Control Variates for Many-Light Rendering}},
+author = {Xu, Xiaofeng and Wang, Lu},
+year = {2025},
+publisher = {The Eurographics Association},
+ISSN = {1727-3463},
+ISBN = {978-3-03868-292-9},
+DOI = {10.2312/sr.20251184}
+}
+```
 ## Copyright Disclaimer
 © The Author(s). This is the author’s version of the work. It is posted here for your personal use. Not for redistribution. The definitive version of record is available at <a href="{{page.doi}}">DOI</a>.
