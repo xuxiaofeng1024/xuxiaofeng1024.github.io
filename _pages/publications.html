@@ -38,6 +38,10 @@ author_profile: true
                     <a href="{{pub.slides_ppt}}" target="_blank" class="btn btn--primary">Slides(PPT)</a>
                     {% endif %}
 
+                     {% if pub.slides_pdf != null %}
+                    <a href="{{pub.slides_pdf}}" target="_blank" class="btn btn--primary">Slides(PDF)</a>
+                    {% endif %}
+
                     {% if pub.presentation_slides_video != null %}
                     <a href="{{pub.presentation_slides_video}}" target="_blank" class="btn btn--primary">Presentation
                         slides video</a>
